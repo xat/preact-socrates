@@ -1,7 +1,7 @@
 {
-  "name": "preact-socrates",
+  "name": "react-socrates",
   "version": "1.0.0",
-  "description": "preact plugin for socrates",
+  "description": "react plugin for socrates",
   "keywords": [
     "preact",
     "react",
@@ -17,10 +17,12 @@
   },
   "dependencies": {
     "component-raf": "^1.2.0",
-    "object-assign": "^4.0.1",
-    "preact": "^4.1.1"
+    "object-assign": "^4.0.1"
   },
-  "devDependencies": {
+  "peerDependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   },
+  "devDependencies": {},
   "main": "lib/index"
 }
